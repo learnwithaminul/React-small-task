@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .regular-color{
+        @apply mb-2 px-3 py-1 inline-block w-full font-semibold text-lg uppercase transition-all duration-300
+    }
+    .active-color{
+        @apply bg-white
+    }
+    .pending-color{
+        @apply hover:bg-white
+    }
+}
