@@ -4,6 +4,8 @@ import CounterApp from "./pages/CounterApp"
 import TodoApp from "./pages/TodoApp"
 import FormApp from './pages/FormApp';
 import "./assets/javascript/script"
+import SearchApp from "./pages/SearchApp";
+import DragInputApp from "./pages/DragInputApp";
 
 function App() {
   const appname ="React Project";
@@ -16,6 +18,8 @@ function App() {
       <Route index element={<CounterApp/>}/>
       <Route path="todo" element={<TodoApp/>}/>
       <Route path="form" element={<FormApp/>}/>
+      <Route path="search" element={<SearchApp/>}/>
+      <Route path="draginput" element={<DragInputApp/>}/>
       </Route>
     </Routes>
     </BrowserRouter>
