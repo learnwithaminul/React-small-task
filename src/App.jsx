@@ -6,6 +6,7 @@ import FormApp from './pages/FormApp';
 import "./assets/javascript/script"
 import SearchApp from "./pages/SearchApp";
 import DragInputApp from "./pages/DragInputApp";
+import LoginRegister from "./pages/LoginRegister";
 
 function App() {
   const appname ="React Project";
@@ -20,6 +21,7 @@ function App() {
       <Route path="form" element={<FormApp/>}/>
       <Route path="search" element={<SearchApp/>}/>
       <Route path="draginput" element={<DragInputApp/>}/>
+      <Route path="login" element={<LoginRegister/>}/>
       </Route>
     </Routes>
     </BrowserRouter>

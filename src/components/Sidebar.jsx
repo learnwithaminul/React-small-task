@@ -8,7 +8,8 @@ const menuLinks =[
     {id:2, name:"Todo", url:"/todo"},
     {id:3, name:"Form", url:"/form"},
     {id:4, name:"Search", url:"/search"},
-    {id:5, name:"Drag & Drop", url:"/draginput"}
+    {id:5, name:"Drag & Drop", url:"/draginput"},
+    {id:5, name:"Login & Register", url:"/login"},
 ]
 
     return (
